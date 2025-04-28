@@ -1,0 +1,33 @@
+#Drive organization 'dataset'
+  ## Audio files :
+    audio_files_v2 : fichiers audio3d avec les histoires racontées
+    audio_files_v3 : fichiers audio3d avec les mots en français
+    audio_files_v4 : fichiers audio3d avec les phrases en anglais
+        csv_files : contient toutes les phrases utilisées
+        noise : contient les fichiers audio du distracteur qui dit les phrases
+          baker : 100 fichiers
+          book : 100 fichiers
+          hospital : 100 fichiers
+          neutral_train : contient 250 fichiers audio (pour la phase d entraînement)
+          neutral_lb : contient 100 fichiers audio (pour la phase lb)
+          room : 100 fichiers
+        target : contient les fichiers audio de la cible qui dit les phrases
+          baker : 50 fichiers
+          book : 50 fichiers
+          hospital : 50 fichiers
+          neutral_train : contient 100 fichiers audio (pour l entraînement)
+          neutral_test : contient 100 fichiers audio (pour le test et lb)
+          room : 50 fichiers
+            
+  ## Datasets :
+    training_set_v4 : dataset d entraînement avec les phrases en anglais (500 fichiers)
+    testing_sets_v4 : datasets de test avec les phrases en anglais
+        baker : 100 fichiers
+        book : 100 fichiers
+        hospital : 100 fichiers
+        room : 100 fichiers
+    lb_v4 : dataset pour la ligne de base (100 fichiers)
+
+    training_set_v3 : dataset d entraînement avec les mots français
+    testing_sets_v3 : dataset de test avec les mots français
+    lb_v3 : 'ligne de base' avec les mots français
