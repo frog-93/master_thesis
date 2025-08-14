@@ -6,7 +6,14 @@ audio3d.m : modified code to automatize spatial audio files generation
 ## Python
 kokoro_tts.ipynb : generation of audio files 
 
-main_run.ipynb : colab code to run both models
+## R
+master_thesis.R : data analysis
 
 ## Other
 audio3dserver.exe : generation of spatial audio
+
+## Access main code 
+https://colab.research.google.com/drive/1sxP3uFSpdqxWJMPrbnKjSKHcup7qFpgr?usp=sharing
+
+# Dataset
+access through link : 
