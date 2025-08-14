@@ -17,5 +17,5 @@ audio3dserver.exe : generation of spatial audio
 ## Access main code 
 https://colab.research.google.com/drive/1sxP3uFSpdqxWJMPrbnKjSKHcup7qFpgr?usp=sharing
 
-# Dataset
+# LSTM & BiLSTM codes + dataset
 access through link : 
