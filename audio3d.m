@@ -3,11 +3,11 @@
 
 % Parameters
 n = 100 ;  % Number of files to generate
-sourceFolder = 'D:/Shared Folders/Projets/Marion IA/Mémoire partim 2/dataset/audio_files/lb/laet_mix';  % Path to source .wav files
-noiseFolder = 'D:/Shared Folders/Projets/Marion IA/Mémoire partim 2/dataset/audio_files/lb/fab_mix'; % Path to distroctor .wav files
-outputFolder = 'D:/Shared Folders/Projets/Marion IA/Mémoire partim 2/dataset/lb';  % Path to save generated files
-csvFilename = 'dataset_configurations_lb.csv';  % CSV file to store configurations
-v = 1;%indice où commencer pour le fichier
+sourceFolder = '';  % Path to source .wav files
+noiseFolder = ''; % Path to distroctor .wav files
+outputFolder = '';  % Path to save generated files
+csvFilename = 'dataset_configurations.csv';  % CSV file to store configurations
+v = 1;%index of generated file
 
 % Ensure output folder exists
 if ~exist(outputFolder, 'dir')
@@ -197,3 +197,4 @@ end
 fclose(csvFile);
 
 fprintf('Dataset generation complete. Configurations saved to %s\n', fullfile(outputFolder, csvFilename));
+
