@@ -16,6 +16,9 @@ audio3dserver.exe : generation of spatial audio
 
 ## Access main code 
 https://colab.research.google.com/drive/1sxP3uFSpdqxWJMPrbnKjSKHcup7qFpgr?usp=sharing
+You will need ASAM_v2.zip and ASAM_LSTM.zip. They can be provided by email.
 
-# LSTM & BiLSTM codes + dataset
-access through link : 
+# Data
+data.xlsx : file containing metrics from both models in each test condition
+LSTM.zip : contains metrics (sdr, sir, sar) from each test condition + predicted audio (and corresponding target/mix) + spectrograms
+BiLSTM.zip : contains metrics (sdr, sir, sar) from each test condition + predicted audio (and corresponding target/mix) + spectrograms
